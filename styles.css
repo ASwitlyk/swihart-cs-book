@@ -16,7 +16,7 @@ p, img {
 }
 
 p {
-	margin: 12px 0;
+	margin: 16px 0;
 }
 
 body {
@@ -102,13 +102,13 @@ header {
 	flex-direction: row;
 	align-items: center;
 	justify-content: space-between;
-	padding: 20px 0;
+	padding: 20px 60px;
 	width: 100%;
 }
 
 .book-desc {
-	max-width: 75%;
-	width: 75%;
+	width: 100%;
+	margin: 20px 60px;
 }
 
 .cover-ctnr {
@@ -125,7 +125,7 @@ header {
 
 .book-desc h2 {
 	font-size: 22px;
-	margin: 10px 0;
+	margin: 14px 0;
 	text-align: center;
 }
 
@@ -215,19 +215,11 @@ footer div {
 	.cover-desc-ctnr {
 		flex-direction: column-reverse;
 	}
-
-	.cover-desc-ctnr div {
-		margin: 20px 0;
-	}
 }
 
 @media screen and (max-width: 1000px) {
 	.cover-desc-ctnr {
 		flex-direction: column-reverse;
-	}
-
-	.cover-desc-ctnr div {
-		margin: 20px 0;
 	}
 }
 
