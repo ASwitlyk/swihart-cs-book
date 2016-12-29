@@ -79,14 +79,18 @@ header {
 }
 
 .buy-link-ctnr {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
 	flex: 1;
+	height: 100%;
 	width: calc(100% / 6);
 	margin: 10px 10px;
 	padding: 10px 10px;
 }
 
 .buy-link-ctnr img {
-
 	height: 100%;
 	max-height: 40px;
 	max-width: 100%;
